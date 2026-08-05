@@ -454,7 +454,7 @@ struct User5 {
 //struct UserModel3 {
 //    let name: String
 //    let isPremium: Bool
-//    
+//
 //    func markUserAsPremium(newValue: Bool) -> UserModel3 {
 //        UserModel3(
 //            name: name,
@@ -571,7 +571,7 @@ struct User5 {
 //struct UserModel4 {
 //    let name: String
 //    private(set) var isPremium: Bool
-//    
+//
 //    mutating func markUserAsPremium() {
 //        isPremium = true
 //    }
@@ -638,7 +638,7 @@ struct User5 {
 //```swift
 //struct User {
 //    var isPremium: Bool
-//    
+//
 //    func makePremium() {
 //        isPremium = true // ❌
 //    }
@@ -664,7 +664,7 @@ struct User5 {
 //```swift
 //struct User {
 //    var isPremium: Bool
-//    
+//
 //    mutating func makePremium() {
 //        isPremium = true
 //    }
@@ -693,7 +693,7 @@ struct User5 {
 //struct User {
 //    let name: String
 //    let isPremium: Bool
-//    
+//
 //    func makePremium() -> User {
 //        User(
 //            name: name,
@@ -726,7 +726,7 @@ struct User5 {
 //struct User {
 //    let name: String
 //    var isPremium: Bool
-//    
+//
 //    mutating func makePremium() {
 //        isPremium = true
 //    }
@@ -814,7 +814,7 @@ struct User5 {
 //```swift
 //class User {
 //    var name: String
-//    
+//
 //    init(name: String) {
 //        self.name = name
 //    }
@@ -931,7 +931,7 @@ struct User5 {
 //struct User {
 //    let name: String
 //    private(set) var isPremium: Bool
-//    
+//
 //    mutating func makePremium() {
 //        isPremium = true
 //    }
@@ -950,7 +950,7 @@ struct User5 {
 //struct UserModel3 {
 //    let name: String
 //    let isPremium: Bool
-//    
+//
 //    func markUserAsPremium(newValue: Bool) -> UserModel3 {
 //        UserModel3(name: name, isPremium: newValue)
 //    }
@@ -989,7 +989,7 @@ struct User5 {
 //struct User {
 //    let name: String
 //    let isPremium: Bool
-//    
+//
 //    func markAsPremium() -> User {
 //        User(
 //            name: name,
